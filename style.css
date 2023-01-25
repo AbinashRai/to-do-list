@@ -1,54 +1,33 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: cursive;
 }
 
 body {
-    background-color: mediumslateblue;
-    color: white;
-    font-family: "Poppins", sans-serif;
-    min-height: 100vh;
+  background: #f2f2f2;
+  overflow: auto;
 }
 
-header {
-    font-size: 1.5rem;
+h1 {
+  text-align: center;
+  margin: 5%;
+  font-size: 3rem;
+  text-decoration: underline;
 }
 
-header,
-form {
-    min-height: 20vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+ul {
+  text-align: left;
+  padding-left: 10%;
+  padding: 7%;
+  font-size: 2rem;
+  list-style: circle;
 }
 
-form input,
-form button {
-    padding: 0.5rem;
-    padding-left: 1 rem;
-    font-size: 1.8rem;
-    border: none;
-    background: white;
-    border-radius: 2rem;
+li:hover {
+  color: red;
+  margin: 4%;
+  transition: 1.5s ease;
+  cursor: pointer;
 }
-
-form button {
-    color: rgb(255, 200, 0);
-    background: white;
-    cursor: pointer;
-    transition: all 0.3 ease;
-    margin-left: 0.5rem;
-}
-
-form button:hover {
-    color: white;
-    background:rgb(255, 200, 0);
-}
-
-.fa-plus-circle {
-    margin-top: 0.3rem;
-    margin-left: -8px;
-}
-
-.todo
